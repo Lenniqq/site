@@ -1,0 +1,176 @@
+body {
+    background-image: url("Screenshot3.png"); 
+    background-size: cover;
+    background-color: #fff;
+
+    z-index: 0;
+    max-width: 100%;
+    font-family: "Roboto", serif;
+
+ }
+
+ a { 
+    text-decoration: none
+ }
+
+
+.container { 
+    width: 1200px;
+    padding:  10px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff00;
+    
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+
+.register__btn{ 
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid ;
+    border-radius: 25px;
+    
+    width: 170px;
+    height: 45px;
+
+    background-color: rgba(89, 111, 236, 0.904);
+    color:#fff;
+   
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register__btn:hover  {
+    background-color: rgba(78, 99, 218, 0.904);
+}
+
+
+
+.welcome .container{ 
+   
+    background-color: #ff000000;
+
+    z-index: 2;
+   
+}
+
+.welcome {
+   
+}
+
+
+.welcome__text { 
+    width: 550px;
+    
+}
+
+
+
+
+.favicon_main { 
+    margin-top: 0;
+    margin-left: 35%;
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+
+}
+
+
+.text1 {
+    font-size: 44px;
+    font-weight: 800;
+    color: rgb(23, 41, 71);
+    opacity: 0.9;
+    
+}
+
+.text2 {
+    font-size: 44px;
+    font-weight: 500;
+    color: rgb(26, 47, 82);
+    opacity: 0.9;
+    margin-top: -45px;
+    
+}
+
+
+.gradient_text_welcome {
+    font-size: 26px;
+    font-weight: 450;
+    background: linear-gradient(90deg, rgb(38, 66, 190), rgb(75, 15, 216), rgb(159, 108, 218));
+    
+    letter-spacing: 0.05em;
+    opacity: 0.8;
+
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+
+    margin-top: -30px;
+
+}
+
+
+.create_site_button {
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid ;
+    border-radius: 40px;
+
+    width: 300px;
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgba(50, 78, 236, 0.904);
+    color:#fff;
+
+    
+    box-shadow: 0 0 20px rgba(25, 0, 255, 0.6);
+    border:none;
+
+    margin-top: 40px;
+    
+}
+
+.create_site_button:hover {
+    background-color: rgba(45, 68, 201, 0.904);
+}
+
+
+
+.text1_1 {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(31, 67, 126);
+
+    letter-spacing: 0.08em;
+    margin-top: 70px;
+    
+}
+
+.text1_2 { 
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(31, 67, 126);
+
+    letter-spacing: 0.08em;
+    margin-top: -20px;
+}
+
+
+.favicon_main {
+
+    position: absolute;
+    
+
+}
